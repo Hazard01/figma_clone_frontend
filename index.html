@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+        font-family: sans-serif;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        
+        section{
+            display: flex;
+            background-color: #FFCD9E;
+            justify-content: center;
+            width: 70vw;
+            height: 60vh;
+        }
+
+        .login-container {
+        border-radius: 5px;
+        padding: 50px 0px;
+        position: relative;
+        right: 70px;
+        }
+
+        h1 {
+        font-weight: bolder;
+        font-size: 3.5vh;
+        }
+
+        .br {
+        display: block;
+        margin: 2.5% 0%;
+        }
+
+        .pbr {
+        display: block;
+        margin: 1% 0%;
+        }
+
+        h4 {
+        font-weight: bolder;
+        }
+
+        .form input {
+        width: 50%;
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: 3px solid #000000;
+        margin: 0;
+        }
+
+        ::placeholder{
+        color: #888888;
+        font-size: 15px;
+        }
+
+        .img {
+        margin: 0px;
+        border-radius: 5px;
+        position: relative;
+        left: 90px;
+        top: 30px;
+        }
+
+        .img img {
+        width: 400px;
+        height: 400px;
+        }
+
+        button{
+        margin-left: 8px;
+        padding: 10px 20px;
+        border-radius: 6px;
+        background-color: #282828;
+        color: #FFFFFF;
+        cursor: pointer;
+        border: 3px solid #282828;
+        font-size: small;
+        font-weight: bold;
+        width: 35%;
+        }
+
+        .form p{
+        padding: 10px 0px 10px 15px;
+        color: #FFFFFF;
+        font-size: 12px;
+        }
+
+
+
+        footer{
+        background-color: #282828;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        }
+
+        .footer-col1 {
+        padding: 30px 0px;
+        color: white;
+        font-size: small;
+        padding-right: 180px
+        }
+
+        .footer-col2 {
+        padding: 30px 0px;
+        color: white;
+        font-size: small;
+        padding-left: 180px;
+        text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div class="login-container">
+                <h1><span class="br">An inspiring design delivered to</span>
+                    your inbox every morning
+                </h1>
+                
+                <p>Our team scouts the internet for the best designs,
+                    <span class="pbr">illustrations and art and delivers a truly inspiring</span>
+                    <span>one every day to your inbox</span>    
+                </p>
+                
+                <h4>Show me how it looks</h4>
+                
+                <div class="form">
+                    <input type="text" id="e-mail" name="e-mail" placeholder="Your e-mail address">
+                    <button type="submit">Register Now</button>
+                    <p>Free - No Spam - No Data Sharing</p>
+                </div>
+            </div>
+            <div class="img">
+                <img src="Logo.png" alt="Image">
+            </div>
+        </section>
+        <footer>
+            <div class="footer-col1">
+                <p>Prompt Generator</p>
+                <p>Dweep Daily</p>
+                <p>All Contributors</p>
+                <p>Your data on Dweep.io</p>
+                <p>Contribute to Dweep</p>
+            </div>
+        
+            <div class="footer-col2">
+                <p>Dweep.io</p>
+                <p>Made with love in india</p>
+                <div class="icons">
+                    <img src="LinkedinLogo.png" alt="LinkedIn-logo">
+                    <img src="InstagramLogo.png" alt="Instagram-logo">
+                </div>
+                <p><br>hello@dweep.io</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
